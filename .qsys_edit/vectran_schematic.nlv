@@ -1,0 +1,11 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst unsaved.CORDIC_0 -pg 1 -lvl 1 -y 30
+preplace inst unsaved -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.s,(SLAVE)CORDIC_0.s) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)CORDIC_0.clk,(SLAVE)unsaved.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)CORDIC_0.c,(SLAVE)unsaved.c) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.a,(SLAVE)CORDIC_0.a) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)CORDIC_0.areset,(SLAVE)unsaved.areset) 1 0 1 NJ
+levelinfo -pg 1 0 50 180
+levelinfo -hier unsaved 60 90 170

@@ -1,0 +1,13 @@
+	component QsysCore is
+		port (
+			clk_clk                                                                                         : in    std_logic                     := 'X'; -- clk
+			pio_0_external_connection_export                                                                : out   std_logic_vector(31 downto 0);        -- export
+			pio_1_external_connection_export                                                                : out   std_logic_vector(31 downto 0);        -- export
+			reset_reset_n                                                                                   : in    std_logic                     := 'X'; -- reset_n
+			spi_slave_to_avalon_mm_master_bridge_0_export_0_mosi_to_the_spislave_inst_for_spichain          : in    std_logic                     := 'X'; -- mosi_to_the_spislave_inst_for_spichain
+			spi_slave_to_avalon_mm_master_bridge_0_export_0_nss_to_the_spislave_inst_for_spichain           : in    std_logic                     := 'X'; -- nss_to_the_spislave_inst_for_spichain
+			spi_slave_to_avalon_mm_master_bridge_0_export_0_miso_to_and_from_the_spislave_inst_for_spichain : inout std_logic                     := 'X'; -- miso_to_and_from_the_spislave_inst_for_spichain
+			spi_slave_to_avalon_mm_master_bridge_0_export_0_sclk_to_the_spislave_inst_for_spichain          : in    std_logic                     := 'X'  -- sclk_to_the_spislave_inst_for_spichain
+		);
+	end component QsysCore;
+

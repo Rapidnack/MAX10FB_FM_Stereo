@@ -1,0 +1,34 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\intelFPGA_lite\18.1\projects\MAX10FB_FM_Stereo\vectran.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\18.1\projects\MAX10FB_FM_Stereo\vectran --family="MAX 10" --part=10M08SAE144C8GES
+Progress: Loading MAX10FB_FM_Stereo/vectran.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 18.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\18.1\projects\MAX10FB_FM_Stereo\vectran.qsys --synthesis=VERILOG --output-directory=C:\intelFPGA_lite\18.1\projects\MAX10FB_FM_Stereo\vectran\synthesis --family="MAX 10" --part=10M08SAE144C8GES
+Progress: Loading MAX10FB_FM_Stereo/vectran.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 18.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: vectran: Generating vectran "vectran" for QUARTUS_SYNTH
+Info: CORDIC_0: C:/intelfpga_lite/18.1/quartus/dspba/backend/windows64/cmdPolyEval -target MAX10 -frequency 200 -name vectran_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 8 FXPVecTranslate 16 15 1 13 0
+Info: CORDIC_0: Latency on MAX 10 is 18 cycles
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 2132
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "vectran" instantiated altera_CORDIC "CORDIC_0"
+Info: vectran: Done "vectran" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

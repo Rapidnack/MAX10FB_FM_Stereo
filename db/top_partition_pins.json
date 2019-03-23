@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SPI_MISO",
+					"strict" : false
+				},
+				{
+					"name" : "I2S_BCK",
+					"strict" : false
+				},
+				{
+					"name" : "I2S_LRCK",
+					"strict" : false
+				},
+				{
+					"name" : "I2S_DATA",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DACA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DACB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_NSS",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_MOSI",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADC[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
