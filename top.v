@@ -343,11 +343,10 @@ module top
 //	assign daca = freqsin19k_ave[FIR_WIDTH+NCO19K_WIDTH-1-1-1-5 -: DAC_WIDTH]; // ifir_valid
 //	assign dacb = freqsin19k_fb[FIR_WIDTH+NCO19K_WIDTH-1-1-1-5 -: DAC_WIDTH]; // ifir_valid
 
-	assign daca = freqsin19k_ave[FIR_WIDTH+NCO19K_WIDTH-1-1-1-5 -: DAC_WIDTH]; // ifir_valid
-	assign dacb = freqsin19k_fb[FIR_WIDTH+NCO19K_WIDTH-1-1-1-5 -: DAC_WIDTH]; // ifir_valid
+	assign daca = i[CIC_WIDTH-1 -: DAC_WIDTH];
+	assign dacb = ifir[FIR_WIDTH-1 -: DAC_WIDTH]; // ifir_valid
 	always @(posedge clk) begin
-		if (ifir_valid)
-			DACA <= (daca[DAC_WIDTH-1] == 0) ? daca + (1'b1 << DAC_WIDTH-1) : daca - (1'b1 << DAC_WIDTH-1);
+		DACA <= (daca[DAC_WIDTH-1] == 0) ? daca + (1'b1 << DAC_WIDTH-1) : daca - (1'b1 << DAC_WIDTH-1);
 		if (ifir_valid)
 			DACB <= (dacb[DAC_WIDTH-1] == 0) ? dacb + (1'b1 << DAC_WIDTH-1) : dacb - (1'b1 << DAC_WIDTH-1);
 	end
