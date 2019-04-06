@@ -21,6 +21,7 @@ MAX10FB_FM_Stereoプロジェクトは、Intel MAX10 FPGAを使ったFMステレ
 
 
 ブレッドボードに３端子レギュレータを載せて、ESP32の5VからFPGA、ADC用3.3Vを生成するようにするとノイズが減少します。
+下の写真は３端子レギュレータとコンデンサを小型の基板に実装したモジュールを使っています。
 
 ![３端子レギュレータ](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/04/16e5eda01925dafb3335710f2c0ee494.png)
 
