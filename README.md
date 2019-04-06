@@ -16,6 +16,10 @@ MAX10FB_FM_Stereoプロジェクトは、Intel MAX10 FPGAを使ったFMステレ
 
 ![操作パネル](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/03/FrontPanel.png)
 
+
+注意: SPIを接続した状態でFPGAへのsofファイルの書き込みに失敗することがあります。その場合はpofファイルを書き込んでください。
+
+
 # Authors
 
 [Rapidnack](http://rapidnack.com/)
