@@ -17,7 +17,7 @@ MAX10FB_FM_Stereoプロジェクトは、Intel MAX10 FPGAを使ったFMステレ
 ![操作パネル](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/03/FrontPanel.png)
 
 
-注意: SPIを接続した状態でFPGAへのsofファイルの書き込みに失敗することがあります。その場合はpofファイルを書き込んでください。
+*注意*: SPIを接続した状態でFPGAへのsofファイルの書き込みに失敗することがあります。その場合はpofファイルを書き込んでください。
 
 
 ブレッドボードに３端子レギュレータを載せて、ESP32の5VからFPGA、ADC用3.3Vを生成するようにするとノイズが減少します。
