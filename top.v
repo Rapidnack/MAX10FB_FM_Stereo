@@ -124,7 +124,7 @@ module top
 
 	always @(posedge clk) begin
 		i <= adc * cos;
-		q <= adc * sin;
+		q <= adc * -sin;
 	end
 	
 	MyCIC #(
